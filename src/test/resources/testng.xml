@@ -2,7 +2,7 @@
 
 <suite name="AllTestsSuiteName">
 
-  <test name="non_modifying" verbose="1" preserve-order="true">
+  <test name="non_modifying" verbose="3" preserve-order="true">
     <groups>
       <run>
         <include name="pruefung" />
@@ -12,18 +12,16 @@
       </run>
     </groups>
     <packages>
-      <package name="com.soebes.testng.test.*" />
-      <package name="com.soebes.testng.test2.*" />
+      <package name="com.soebes.testng.*" />
     </packages>
   </test>
-  <test name="modification" verbose="1" preserve-order="true">
+  <test name="modification" verbose="3" preserve-order="true">
     <groups>
         <include name="area_a_modifiziere_daten.*"/>
         <include name="area_b_pruefung_filter.*"/>
     </groups>  
     <packages>
-      <package name="com.soebes.testng.test.*" />
-      <package name="com.soebes.testng.test2.*" />
+      <package name="com.soebes.testng.*" />
     </packages>
   </test>
 
