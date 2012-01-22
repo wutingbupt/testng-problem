@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 /**
  * @author Karl Heinz Marbaise
  */
-@Test
+@Test(groups = { "pruefung" })
 public class IntegrationTestBase {
 
     private static final Logger LOGGER = Logger.getLogger(IntegrationTestBase.class);
