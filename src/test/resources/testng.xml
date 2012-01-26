@@ -2,6 +2,7 @@
 
 <suite name="AllTestsSuiteName">
 
+<<<<<<< HEAD
   <test name="AllTestsTestName" verbose="1" preserve-order="true">
 <!--     <groups> -->
 <!--       <run> -->
@@ -13,10 +14,47 @@
 <!--         <include name="area_b_pruefung_filter.*"/> -->
 <!--       </run> -->
 <!--     </groups> -->
+=======
+  <test name="non_modifying" verbose="3" preserve-order="true">
+    <groups>
+      <run>
+        <include name="pruefung" />
+        <include name="area_a_pruefung.*"/>
+        <include name="area_b_pruefung.*"/>
+        <include name="area_c_pruefung.*"/>
+      </run>
+    </groups>
+>>>>>>> f9f29bb7146b39dac67717040550e5a9d1b56948
     <packages>
       <package name="com.soebes.testng.*" />
     </packages>
   </test>
+  <test name="modification" verbose="3" preserve-order="true">
+    <groups>
+        <include name="area_a_modifiziere_daten.*"/>
+        <include name="area_b_pruefung_filter.*"/>
+    </groups>  
+    <packages>
+      <package name="com.soebes.testng.*" />
+    </packages>
+  </test>
+
+<!--   <test name="AllTestsTestName" verbose="1" preserve-order="true"> -->
+<!--     <groups> -->
+<!--       <run> -->
+<!--         <include name="pruefung" /> -->
+<!--         <include name="area_a_pruefung.*"/> -->
+<!--         <include name="area_b_pruefung.*"/> -->
+<!--         <include name="area_c_pruefung.*"/> -->
+<!--         <include name="area_a_modifiziere_daten.*"/> -->
+<!--         <include name="area_b_pruefung_filter.*"/> -->
+<!--       </run> -->
+<!--     </groups> -->
+<!--     <packages> -->
+<!--       <package name="com.soebes.testng.test.*" /> -->
+<!--       <package name="com.soebes.testng.test2.*" /> -->
+<!--     </packages> -->
+<!--   </test> -->
 
 </suite>
 
