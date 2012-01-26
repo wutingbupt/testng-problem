@@ -11,7 +11,6 @@ public class CheckForIntegrityWithoutRoleIT extends IntegrationTestBase {
     private static final Logger LOGGER = Logger.getLogger(CheckForIntegrityWithoutRoleIT.class);
 
     public void dialogCheckForInegrityWithoutRole() throws Exception {
-        LOGGER.info("CheckForIntegrityWithoutRoleIT::dialogCheckForInegrityWithoutRole()");
         LOGGER.info("CheckForIntegrityWithoutRoleIT::dialogCheckForInegrityWithoutRole(pruefung)");
     }
 

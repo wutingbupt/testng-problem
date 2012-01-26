@@ -14,7 +14,6 @@ public class CheckForIntegrityRoleIT extends IntegrationTestBase {
 
     
     public void dialogCheckForInegrityWithRole() throws Exception {
-        LOGGER.info("CheckForIntegrityRoleIT::dialogCheckForInegrityWithRole()");
         LOGGER.info("CheckForIntegrityRoleIT::dialogCheckForInegrityWithRole(area_c_pruefung)");
     }
 

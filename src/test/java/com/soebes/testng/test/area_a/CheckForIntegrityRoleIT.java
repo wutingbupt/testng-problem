@@ -13,7 +13,6 @@ public class CheckForIntegrityRoleIT extends IntegrationTestBaseBE {
     private static final Logger LOGGER = Logger.getLogger(CheckForIntegrityRoleIT.class);
 
     public void dialogCheckForInegrityWithRole() throws Exception {
-        LOGGER.info("CheckForIntegrityRoleIT::dialogCheckForInegrityWithRole()");
         LOGGER.info("CheckForIntegrityRoleIT::dialogCheckForInegrityWithRole(area_a_pruefung)");
     }
 }

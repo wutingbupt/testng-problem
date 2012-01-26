@@ -16,7 +16,7 @@ public class IntegrationTestBase {
 
     private static final Logger LOGGER = Logger.getLogger(IntegrationTestBase.class);
 
-    @BeforeGroups
+    @BeforeGroups(groups = { "area_a_pruefung", "area_b_pruefung", "area_c_pruefung", "pruefung", "area_b_pruefung_filter", "area_a_modifiziere_daten" })
     public void beforeGroups() {
         LOGGER.info("IntegrationTestBase::beforeGroups()");
     }

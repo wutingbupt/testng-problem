@@ -3,19 +3,18 @@
 <suite name="AllTestsSuiteName">
 
   <test name="AllTestsTestName" verbose="1" preserve-order="true">
-    <groups>
-      <run>
-        <include name="pruefung" />
-        <include name="area_a_pruefung.*"/>
-        <include name="area_b_pruefung.*"/>
-        <include name="area_c_pruefung.*"/>
-        <include name="area_a_modifiziere_daten.*"/>
-        <include name="area_b_pruefung_filter.*"/>
-      </run>
-    </groups>
+<!--     <groups> -->
+<!--       <run> -->
+<!--         <include name="pruefung" /> -->
+<!--         <include name="area_a_pruefung.*"/> -->
+<!--         <include name="area_b_pruefung.*"/> -->
+<!--         <include name="area_c_pruefung.*"/> -->
+<!--         <include name="area_a_modifiziere_daten.*"/> -->
+<!--         <include name="area_b_pruefung_filter.*"/> -->
+<!--       </run> -->
+<!--     </groups> -->
     <packages>
-      <package name="com.soebes.testng.test.*" />
-      <package name="com.soebes.testng.test2.*" />
+      <package name="com.soebes.testng.*" />
     </packages>
   </test>
 

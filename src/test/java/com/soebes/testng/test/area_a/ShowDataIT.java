@@ -18,13 +18,11 @@ public class ShowDataIT extends IntegrationTestBaseBE {
     @BeforeClass
     public void beforeClass() {
         LOGGER.info("ShowDataIT::beforeClass()");
-        LOGGER.info("ShowDataIT::beforeClass(area_a_pruefung)");
     }
 
     @BeforeMethod
     public void beforeMethod() throws InterruptedException {
         LOGGER.info("ShowDataIT::beforeMethod()");
-        LOGGER.info("ShowDataIT::beforeMethod(area_a_pruefung)");
     }
 	
 	/**
@@ -32,8 +30,6 @@ public class ShowDataIT extends IntegrationTestBaseBE {
      */
     public void showRIEData() throws InterruptedException {
         LOGGER.info("ShowDataIT::showRIEData()");
-        LOGGER.info("ShowDataIT::showRIEData(area_a_pruefung)");
-
     }
 
 }

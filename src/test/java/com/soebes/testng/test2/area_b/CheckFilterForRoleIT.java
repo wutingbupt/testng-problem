@@ -17,13 +17,11 @@ public class CheckFilterForRoleIT extends IntegrationTestBase {
 
     @BeforeClass
     public void beforeClass() throws InterruptedException {
-        LOGGER.info("CheckFilterForRoleIT::beforeClass()");
         LOGGER.info("CheckFilterForRoleIT::beforeClass(area_b_pruefung_filter)");
     }
 
     @BeforeMethod
     public void beforeMethod() throws InterruptedException {
-        LOGGER.info("CheckFilterForRoleIT::beforeMethod()");
         LOGGER.info("CheckFilterForRoleIT::beforeMethod(area_b_pruefung_filter)");
     }
 
@@ -31,14 +29,12 @@ public class CheckFilterForRoleIT extends IntegrationTestBase {
      * @throws InterruptedException
      */
     public void checkContentsList() throws InterruptedException {
-        LOGGER.info("CheckFilterForRoleIT::checkContentsList()");
         LOGGER.info("CheckFilterForRoleIT::checkContentsList(area_b_pruefung_filter)");
 
     }
 
     @Test(dependsOnMethods = { "checkContentsList" })
     public void checkDisplayAfterSearch() throws InterruptedException {
-    	LOGGER.info("CheckFilterForRoleIT::checkDisplayAfterSearch");
     	LOGGER.info("CheckFilterForRoleIT::checkDisplayAfterSearch(area_b_pruefung_filter)");
     }
 
